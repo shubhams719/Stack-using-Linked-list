@@ -3,11 +3,11 @@
 
 int main()
 {
-	link link1;
-	link1.push(5);
-	link1.push(2);
-	link1.push(3);
-	link1.pop(2);
-	link1.print();
+	link stack;
+	stack.push(5);
+	stack.push(2);
+	stack.push(3);
+	stack.pop(2);
+	stack.print();
 	return 0;
 }
